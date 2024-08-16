@@ -33,4 +33,14 @@ def display_csv(request):
     return render(request, 'safe_route/display.html', {'data': data})
 
 def diplay_map(request):
-    return render(request, 'safe_route/map.html')
+
+    csv_file_path = settings.BASE_DIR / 'data' / 's2.csv'
+
+    data = []
+
+    with open(csv_file_path, newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            data.append(row)
+
+    return render(request, 'safe_route/map.html', {'data': data})

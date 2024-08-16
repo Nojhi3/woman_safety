@@ -24,17 +24,15 @@
     <table>
         <thead>
             <tr>
-                {% for header in data.0 %}
-                <th>{{ header }}</th>
-                {% endfor %}
+                <th>latitude</th>
+                <th>longitude</th>
             </tr>
         </thead>
         <tbody>
             {% for row in data|slice:"1:" %}
             <tr>
-                {% for cell in row %}
-                <td>{{ cell }}</td>
-                {% endfor %}
+                <td>{{ row.7 }}</td>
+                <td>{{ row.6 }}</td>
             </tr>
             {% endfor %}
         </tbody>
