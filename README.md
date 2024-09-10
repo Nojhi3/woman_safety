@@ -36,8 +36,8 @@ Safe Route Finder aims to address the safety concerns of women by helping them n
 
 ### Prerequisites
 
-- Python 3.x
-- Django 3.x
+- Python 3.10
+- Django 5.1.1
 - Google Maps API key
 
 ### Steps
@@ -49,23 +49,18 @@ Safe Route Finder aims to address the safety concerns of women by helping them n
 
 2. **Navigate to the project directory**:
    ```bash
-   cd saferoutefinder
+   cd woman_safety/safe_route
    ```
 
-3. **Install the required dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set up the Google Maps API key**:
+3. **Set up the Google Maps API key**:
    - Add your API key to the environment variables or directly in the Django settings file.
 
-5. **Run the development server**:
+4. **Run the development server**:
    ```bash
    python manage.py runserver
    ```
 
-6. **Access the app**:
+5. **Access the app**:
    - Open your browser and go to `http://127.0.0.1:8000/`.
 
 ---
@@ -75,8 +70,6 @@ Safe Route Finder aims to address the safety concerns of women by helping them n
 1. Enter your starting point and destination in the input fields.
 2. The app will calculate the safest route based on real-time crime data and display it on the map.
 3. Follow the suggested route for a safer journey.
-
-*Screenshot of the app interface showing the route map.*
 
 ---
 
@@ -107,14 +100,3 @@ Contributions are welcome! Please follow these steps to contribute:
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
-
-## Contact
-
-For any questions or collaboration opportunities, feel free to reach out:
-
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile/)
-
----
-
-Let me know if you need any modifications or additional details!
