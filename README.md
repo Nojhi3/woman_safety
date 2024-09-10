@@ -12,7 +12,6 @@
 5. [Technologies Used](#technologies-used)
 6. [Contributing](#contributing)
 7. [License](#license)
-8. [Contact](#contact)
 
 ---
 
